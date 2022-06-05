@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #0143a7;
+    color: #313131;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cont {
+    width: 95%;
+    background-color: #dfdfe0;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    direction: rtl;
+}
+.cont-items{
+    padding: 20px 50px;
+}
+.back-icon{
+    align-items: center;
+    display: flex;
+    width: 75px;
+    justify-content: space-between;
+    font-size: clamp(17px,2vw,30px);
+    padding: 2px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.back-icon:hover{
+    border: 1px solid #313131;
+}
+.back{
+    margin-bottom: 4px;
+}
+.spand-line{
+    padding: 5px;
+    display: block;
+    width: 80%;
+    border-bottom:1px solid #313131;
+}
+.part-add-adver{
+    text-align: center;
+    font-size: clamp(17px,2vw,30px);
+
+}
+.add-adver1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: clamp(20px,2vw,30px);
+    margin: 40px 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.add-adver1:hover{
+    border: 1px solid #313131;
+    border-radius: 10px;
+}
+.add-adver1-a{
+    text-decoration: none;
+    color: #313131;
+}
+.advice{
+    width: 33px;
+}
+@media  (max-width: 600px){
+    .back-icon{
+        width: 50px;
+    }
+    .add-adver1{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        font-size: clamp(22px,2vw,30px);
+        margin: 40px 0px;
+    }
+    .cont-items{
+        padding: 20px 30px;
+    }
+    .advice{
+        width: 29px;
+    }
+}    
