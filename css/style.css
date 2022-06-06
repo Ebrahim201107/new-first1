@@ -45,6 +45,7 @@ body {
 .add-adver1{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 95%;
     font-size: clamp(20px,2vw,25px);
     margin: 50px 20px;
