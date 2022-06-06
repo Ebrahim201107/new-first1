@@ -58,6 +58,9 @@ body {
 .add-adver1-a{
     text-decoration: none;
     color: #313131;
+    font-weight: 600;
+    font-size: clamp(16px,2vw,25px);
+
 }
 .advice{
     width: 33px;
