@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    background-color: #0143a7;
+    background-color: #313131;
     color: #313131;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -24,20 +24,17 @@ body {
     width: 75px;
     justify-content: space-between;
     font-size: clamp(17px,2vw,30px);
-    padding: 2px 4px;
+    padding: 2px 6px;
     border-radius: 5px;
     cursor: pointer;
 }
 .back-icon:hover{
-    border: 1px solid #313131;
-}
-.back{
-    margin-bottom: 4px;
+    background-color: #3131312f;
 }
 .spand-line{
     padding: 5px;
     display: block;
-    width: 80%;
+    width: 95%;
     border-bottom:1px solid #313131;
 }
 .part-add-adver{
@@ -48,14 +45,13 @@ body {
 .add-adver1{
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    font-size: clamp(20px,2vw,30px);
-    margin: 40px 10px;
-    align-items: center;
+    width: 95%;
+    font-size: clamp(20px,2vw,25px);
+    margin: 50px 20px;
     cursor: pointer;
 }
 .add-adver1:hover{
-    border: 1px solid #313131;
+    background-color: #72727254;
     border-radius: 10px;
 }
 .add-adver1-a{
@@ -70,16 +66,13 @@ body {
         width: 50px;
     }
     .add-adver1{
-        display: flex;
-        justify-content: space-between;
-        width: 95%;
-        font-size: clamp(22px,2vw,30px);
-        margin: 40px 0px;
+        width: 100%;
+        margin: 41px 0px;
     }
     .cont-items{
-        padding: 20px 30px;
+        padding: 10px 25px;
     }
     .advice{
-        width: 29px;
+        width: 27px;
     }
 }    
