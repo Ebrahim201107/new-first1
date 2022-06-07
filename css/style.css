@@ -4,12 +4,12 @@
 }
 body {
     background-color: #313131;
-    color: #313131;
+    color: #779394;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .cont {
     width: 95%;
-    background-color: #dfdfe0;
+    background-color: #f7f7f7;
     margin: auto;
     margin-top: 10px;
     border-radius: 30px;
@@ -29,13 +29,13 @@ body {
     cursor: pointer;
 }
 .back-icon:hover{
-    background-color: #3131312f;
+    background-color: #77939473;
 }
 .spand-line{
     padding: 5px;
     display: block;
     width: 95%;
-    border-bottom:1px solid #313131;
+    border-bottom:1px solid #8aa7ad;
 }
 .part-add-adver{
     text-align: center;
@@ -52,7 +52,7 @@ body {
     cursor: pointer;
 }
 .add-adver1:hover{
-    background-color: #72727254;
+    background-color: #7793941e;
     border-radius: 10px;
 }
 .add-adver1-a{
@@ -64,6 +64,9 @@ body {
 }
 .advice{
     width: 33px;
+}
+.part{
+    color: #313131;
 }
 @media  (max-width: 600px){
     .back-icon{
